@@ -41,6 +41,12 @@ td {
   img {
     height: auto;
     max-width: 100%;
+    display: table;
+    text-align: center;
+}
+form{
+  display: table;
+  text-align: center;
 }
 
 }
@@ -57,7 +63,11 @@ td {
   img {
     height: auto;
     max-width: 100%;
+    display: table;
+    text-align: center;
+    
 }
+
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -73,7 +83,11 @@ td {
     img {
       height: auto;
       max-width: 100%;
+      display: table;
+      text-align: center;
   }
+ 
+  
   
 }
 
@@ -94,11 +108,15 @@ td {
   img {
     height: auto;
     max-width: 100%;
+    display: table;
+    text-align: center;
 }
 tr {
   display: table;
   text-align: center;
 }
+
+
 }
 .btn-conteiner {
   display: flex;
