@@ -28,9 +28,63 @@ ul{
 }
 h1 {
   text-align: center;
-  color: #0E8388;
+  color: #0a6164;
   
 }
+.navbar {
+  background-color: #2C3333;
+  overflow: hidden;
+  
+}
+.logo {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.menu {
+  float: left;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+
+.navbar a {
+  float: right;
+  display:block;
+  color: #12afb4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #0a6164;
+  color: #CBE4DE;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a{
+  margin-left: 10px;
+}
+
+h1, p {
+  margin-top: 10px;
+}
+
 @media (min-width: 1281px) {
   table {
     display: table;
@@ -40,7 +94,7 @@ td {
     display: table;
     text-align: center;
 }
-  img {
+img {
     height: auto;
     max-width: 100%;
 }
@@ -56,6 +110,7 @@ form
     margin-right: auto;
     text-align: center;
 }
+
 
 
 
@@ -86,6 +141,7 @@ form
     margin-right: auto;
     text-align: center;
 } 
+
 
 
 }
@@ -119,6 +175,7 @@ form
     
     text-align: center;
   }
+
   
 }
 
@@ -143,6 +200,15 @@ td {
 tr {
   display: table;
   text-align: center;
+}
+div
+{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
 .btn-conteiner {
