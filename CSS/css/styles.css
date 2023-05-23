@@ -31,11 +31,6 @@ h1 {
   color: #0a6164;
   
 }
-.navbar {
-  background-color: #2C3333;
-  overflow: hidden;
-  
-}
 .logo {
   float: left;
   display: flex;
@@ -114,7 +109,49 @@ form
 
 
 
+
+
 }
+@media (min-width: 1281px) and (max-width: 1920px){
+  table {
+    display: table;
+    margin: 0 auto;
+}
+td {
+    display: table;
+    text-align: center;
+}
+  img {
+    height: auto;
+    max-width: 100%;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+} 
+
+.navbar {
+  background-color: #2C3333;
+  overflow: hidden;
+  
+}
+.thm{
+  text-align: center;
+  margin-left: 25%;
+
+}
+}
+
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   table {
@@ -129,6 +166,7 @@ td {
     height: auto;
     max-width: 100%;
 }
+
 div.form
 {
     display: block;
@@ -140,12 +178,28 @@ form
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 } 
 
-
+.navbar {
+  background-color: #2C3333;
+  overflow: hidden;
+  
+}
+.thm{
+  text-align: center;
+  margin-left: 25%;
 
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+
+
+
+
+
+@media (min-width: 853px) and (max-width: 1024px) {
 
   table {
       display: table;
@@ -171,16 +225,34 @@ form
       margin-right: auto;
       text-align: center;
   }
-  ul{
+  ul
+  {
     
-    text-align: center;
+      text-align: center;
   }
 
+  .navbar {
+      background-color: #2C3333;
+      overflow: hidden;
+    
+  }
+  .thm{
+    text-align: center;
+    margin-left: 20%;
+  
+  }
   
 }
 
 
-@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 852px) {
   /* telefonlar icin */
   h1 {
       font-size: 2.5rem;
@@ -194,6 +266,7 @@ td {
     text-align: center;
 }
   img {
+    
     height: auto;
     max-width: 100%;
 }
@@ -210,7 +283,29 @@ div
     margin-left: auto;
     margin-right: auto;
 }
+.thm{
+  text-align: center;
+  margin-left: auto;
+
 }
+
+.navbar {
+  background-color: #2C3333;
+  overflow: hidden;
+  
+}
+}
+
+
+
+
+
+
+
+
+
+
+
 .btn-conteiner {
   display: flex;
   justify-content: center;
