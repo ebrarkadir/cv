@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/css/contact.css">
     <link rel="icon" href="icon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
 
 </head>
 <body>
@@ -14,16 +15,32 @@
       <table cellspacing="20">
         <div class="navbar">
           <div class="logo">
-            <img src="images/oturanadam2.png" alt="Site logo">
+            <img src="images/oturanadam2.png" alt="SiteLogo">
             <h1>EBRAR KADİR ÇETİN</h1>
           </div>
-          <div class="menu">          
+          <div class="nmenu">          
             <a href="#Home">Home</a>
             <a href="#EducationAndExperience">Experience And Education</a>
             <a href="#SkillsAndCertificate">Skills and Certificate </a>
             <a href="#SocialAndContact">Contact Me</a>
           </div>
         </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div>
+      <img src="images/oturanadam2.png" alt="hamburgerLogo">
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu" onclick="toggleMobileMenu(this)">
+      <li><a href="#Home">Home</a><li>
+      <li><a href="#EducationAndExperience">Experience And Education</a></li>
+      <li><a href="#SkillsAndCertificate">Skills and Certificate </a></li>
+      <li><a href="#SocialAndContact">Contact Me</a></li>
+    </ul>
+  </section>
         
   <div id="AllPages">
         <tr>
